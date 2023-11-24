@@ -70,7 +70,11 @@ public class ConsoleMenu {
                 PRINTLN.info("\t" + StringUtils.replace(content, "\n", "\n\t"));
                 return runActionsMenu(text);
             }
+            case (3) -> {
+                return tearDown();
+            }
             default -> {
+                IOActions.writeResultsToFile(container);
                 return tearDown();
             }
         }
