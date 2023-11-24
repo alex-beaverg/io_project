@@ -17,11 +17,12 @@ public class IOActions {
     private static final Logger LOGGER = LogManager.getLogger(IOActions.class);
 
     public static String readTextFromFile() {
+        String path = "src/main/java/com/solvd/io_project/data/text.txt";
         try {
-            return FileUtils.readFileToString(new File("src/main/java/com/solvd/io_project/data/text.txt"),
+            return FileUtils.readFileToString(new File(path),
                     StandardCharsets.UTF_8);
         } catch (IOException e) {
-            LOGGER.error("[IOException]: You have a problem with reading text from the file!");
+            LOGGER.error("[IOException]: You have a problem with reading text from the file [" + path + "]!");
             return null;
         }
     }
@@ -40,38 +41,43 @@ public class IOActions {
     }
 
     public static void writeResultsToFile(Container container) {
+        String path = "src/main/java/com/solvd/io_project/data/results.txt";
         StringBuilder data = new StringBuilder();
         int index = 1;
-        for (Text text : container.getTexts()) {
-            data.append("= = = = =\n[TEXT ")
-                    .append(index)
-                    .append("]\n[ORIGINAL TEXT]:\n\t")
-                    .append(StringUtils.replace(text.getContent(), "\n", "\n\t"))
-                    .append("\n[NUMBER OF THE UNIQUE WORDS]: ")
-                    .append(text.getNumberOfTheUniqueWords() == 0 ? "Calculation was not done" : text.getNumberOfTheUniqueWords())
-                    .append("\n[LETTERS]: ")
-                    .append(text.getAllLetters() == null ? "Calculation was not done" : text.getAllLetters())
-                    .append("\n[NUMBER OF THE LETTERS]: ")
-                    .append(text.getNumberOfTheLetters() == 0 ? "Calculation was not done" : text.getNumberOfTheLetters())
-                    .append("\n[SEARCH BY WORDS]: ");
-            if (text.getMapOfFoundWords().size() > 0) {
-                for (Map.Entry<String, Integer> entry : text.getMapOfFoundWords().entrySet()) {
-                    data.append("\n\tWORD: ")
-                            .append(entry.getKey())
-                            .append("\n\tMATCHES: ")
-                            .append(entry.getValue());
+        if (container.getTexts().size() > 0) {
+            for (Text text : container.getTexts()) {
+                data.append("= = = = =\n[TEXT ")
+                        .append(index)
+                        .append("]\n[ORIGINAL TEXT]:\n\t")
+                        .append(StringUtils.replace(text.getContent(), "\n", "\n\t"))
+                        .append("\n[NUMBER OF THE UNIQUE WORDS]: ")
+                        .append(text.getNumberOfTheUniqueWords() == 0 ? "Calculation was not done" : text.getNumberOfTheUniqueWords())
+                        .append("\n[LETTERS]: ")
+                        .append(text.getAllLetters() == null ? "Calculation was not done" : text.getAllLetters())
+                        .append("\n[NUMBER OF THE LETTERS]: ")
+                        .append(text.getNumberOfTheLetters() == 0 ? "Calculation was not done" : text.getNumberOfTheLetters())
+                        .append("\n[SEARCH BY WORDS]: ");
+                if (text.getMapOfFoundWords().size() > 0) {
+                    for (Map.Entry<String, Integer> entry : text.getMapOfFoundWords().entrySet()) {
+                        data.append("\n\tWORD: ")
+                                .append(entry.getKey())
+                                .append("\n\tMATCHES: ")
+                                .append(entry.getValue());
+                    }
+                } else {
+                    data.append("Search was not done");
                 }
-            } else {
-                data.append("Search was not done");
+                data.append("\n= = = = =\n\n");
+                index++;
             }
-            data.append("\n= = = = =\n\n");
-            index++;
+        } else {
+            data.append("No text was received for processing");
         }
         try {
-            FileUtils.writeStringToFile(new File("src/main/java/com/solvd/io_project/data/results.txt"),
+            FileUtils.writeStringToFile(new File(path),
                     StringUtils.trim(data.toString()), StandardCharsets.UTF_8);
         } catch (IOException e) {
-            LOGGER.error("[IOException]: You have a problem with writing text into the file!");
+            LOGGER.error("[IOException]: You have a problem with writing text into the file [" + path + "]!");
         }
     }
 }

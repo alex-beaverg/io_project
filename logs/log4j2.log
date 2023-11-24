@@ -27,3 +27,10 @@
 2023-11-23 20:51:46,528 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
 2023-11-23 20:51:49,441 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
 2023-11-23 20:51:55,302 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 14:55:36,162 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file [src/main/java/com/solvd/io_project/data/text1.txt] !
+2023-11-24 14:56:09,135 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file [src/main/java/com/solvd/io_project/data/text1.txt]!
+2023-11-24 15:06:04,765 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 15:07:47,582 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 15:14:56,132 ERROR c.s.i.a.IOActions [main] [ShortPhraseException]: Entered data must be longer than 20 letters
+2023-11-24 15:14:56,137 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-24 15:14:56,138 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!

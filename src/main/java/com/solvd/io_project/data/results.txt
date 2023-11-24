@@ -9,8 +9,6 @@
 [SEARCH BY WORDS]: 
 	WORD: github
 	MATCHES: 1
-	WORD: repository
-	MATCHES: 1
 	WORD: you
 	MATCHES: 2
 = = = = =
@@ -18,29 +16,11 @@
 = = = = =
 [TEXT 2]
 [ORIGINAL TEXT]:
-	Hello my dear friend! Would you like to drink some cans of beer with me tonight? Great!!!
-[NUMBER OF THE UNIQUE WORDS]: 17
-[LETTERS]: H E L L O M Y D E A R F R I E N D W O U L D Y O U L I K E T O D R I N K S O M E C A N S O F B E E R W I T H M E T O N I G H T G R E A T
-[NUMBER OF THE LETTERS]: 68
+	hello hello hello hello
+[NUMBER OF THE UNIQUE WORDS]: 1
+[LETTERS]: H E L L O H E L L O H E L L O H E L L O
+[NUMBER OF THE LETTERS]: 20
 [SEARCH BY WORDS]: 
-	WORD: tonight
-	MATCHES: 1
-	WORD: beer
-	MATCHES: 1
-= = = = =
-
-= = = = =
-[TEXT 3]
-[ORIGINAL TEXT]:
-	Abstract class VS interface!
-[NUMBER OF THE UNIQUE WORDS]: 4
-[LETTERS]: Calculation was not done
-[NUMBER OF THE LETTERS]: Calculation was not done
-[SEARCH BY WORDS]: 
-	WORD: inheritance
-	MATCHES: 0
-	WORD: interface
-	MATCHES: 1
-	WORD: class
-	MATCHES: 1
+	WORD: hello
+	MATCHES: 4
 = = = = =
