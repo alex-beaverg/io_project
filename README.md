@@ -1,2 +1,13 @@
-# io_project
-IO and utils project
+### Input/Output (second) project
+
+---
+
+***[Solvd.Laba](https://laba.solvd.com/)***
+
+**Course:** *2023-02*
+
+**Student:** *Aleksey Bobrikov*
+
+---
+
+***© 2023***

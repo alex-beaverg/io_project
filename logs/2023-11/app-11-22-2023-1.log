@@ -1,0 +1,26 @@
+2023-11-22 14:11:32,162 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-22 14:26:13,030 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 15:40:16,926 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 15:40:23,204 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:40:26,989 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:40:30,756 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 15:42:08,166 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 15:42:10,359 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:42:13,473 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:42:21,565 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:42:22,796 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:42:24,923 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:42:39,547 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:43:13,236 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:43:16,634 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 15:43:22,513 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect!
+2023-11-22 16:57:24,844 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-22 17:15:43,955 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 17:15:55,372 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-22 17:35:18,588 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-22 17:35:42,599 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 17:40:36,021 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 17:44:19,383 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-22 17:44:24,525 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-22 17:45:34,404 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-22 19:14:06,340 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file!
