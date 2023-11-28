@@ -34,7 +34,7 @@ public class ConsoleMenu {
         int answer;
         do {
             try {
-                answer = RequestMethods.requestingInfoWithChoice("Enter the menu item number: ", index - 1);
+                answer = RequestMethods.menuItemRequest("Enter the menu item number: ", index - 1);
                 break;
             } catch (EmptyInputException | MenuItemOutOfBoundsException e) {
                 LOGGER.error(e.getMessage());
@@ -100,7 +100,7 @@ public class ConsoleMenu {
                 String wordToSearch;
                 do {
                     try {
-                        wordToSearch = RequestMethods.requestingWordForSearching("\nEnter the word you want to find: ");
+                        wordToSearch = RequestMethods.searchWordRequest("\nEnter the word you want to find: ");
                         break;
                     } catch (EmptyInputException | WordToFindException e) {
                         LOGGER.error(e.getMessage());

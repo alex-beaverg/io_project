@@ -31,7 +31,7 @@ public class IOActions {
         String text;
         do {
             try {
-                text = RequestMethods.requestingInfoString("\nEnter your text (more than 20 letters): ");
+                text = RequestMethods.infoStringRequest("\nEnter your text (more than 20 letters): ");
                 break;
             } catch (EmptyInputException | ShortPhraseException e) {
                 LOGGER.error(e.getMessage());

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class RequestMethods {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static int requestingInfoWithChoice(String text, int menuItemsNumber)
+    public static int menuItemRequest(String text, int menuItemsNumber)
             throws EmptyInputException, NumberFormatException, MenuItemOutOfBoundsException {
         PRINT.info(text);
         String answer = scanner.nextLine();
@@ -25,7 +25,7 @@ public class RequestMethods {
         return numberFromAnswer;
     }
 
-    public static String requestingInfoString(String text) throws EmptyInputException, ShortPhraseException {
+    public static String infoStringRequest(String text) throws EmptyInputException, ShortPhraseException {
         PRINT.info(text);
         String answer = scanner.nextLine();
         if (answer.isEmpty()) {
@@ -37,7 +37,7 @@ public class RequestMethods {
         return answer;
     }
 
-    public static String requestingWordForSearching(String text) throws EmptyInputException, WordToFindException {
+    public static String searchWordRequest(String text) throws EmptyInputException, WordToFindException {
         PRINT.info(text);
         String answer = scanner.nextLine();
         if (answer.isEmpty()) {
