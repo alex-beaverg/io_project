@@ -53,7 +53,7 @@ public class ConsoleMenu {
             case (1) -> {
                 content = IOActions.readTextFromFile();
                 if (content == null) {
-                    return tearDown();
+                    return runMainMenu();
                 } else {
                     text.setContent(content);
                     container.addTextToList(text);

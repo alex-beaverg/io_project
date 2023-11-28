@@ -19,8 +19,7 @@ public class IOActions {
     public static String readTextFromFile() {
         String path = "src/main/java/com/solvd/io_project/data/text.txt";
         try {
-            return FileUtils.readFileToString(new File(path),
-                    StandardCharsets.UTF_8);
+            return FileUtils.readFileToString(new File(path), StandardCharsets.UTF_8);
         } catch (IOException e) {
             LOGGER.error("[IOException]: You have a problem with reading text from the file [" + path + "]!");
             return null;
@@ -74,8 +73,7 @@ public class IOActions {
             data.append("No text was received for processing");
         }
         try {
-            FileUtils.writeStringToFile(new File(path),
-                    StringUtils.trim(data.toString()), StandardCharsets.UTF_8);
+            FileUtils.writeStringToFile(new File(path), StringUtils.trim(data.toString()), StandardCharsets.UTF_8);
         } catch (IOException e) {
             LOGGER.error("[IOException]: You have a problem with writing text into the file [" + path + "]!");
         }

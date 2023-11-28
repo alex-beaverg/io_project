@@ -1,0 +1,36 @@
+2023-11-23 12:02:37,028 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file!
+2023-11-23 12:09:01,898 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file!
+2023-11-23 12:22:52,667 ERROR c.s.i.a.IOActions [main] [ShortPhraseException]: Entered data must be longer than 20 letters
+2023-11-23 12:29:15,993 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:29:28,446 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:29:36,125 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:29:50,485 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:30:02,169 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:30:11,132 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:30:29,717 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:30:31,623 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:30:33,146 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:36:12,914 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:36:18,752 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 12:36:45,585 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-23 12:37:12,138 ERROR c.s.i.c.ConsoleMenu [main] [WordToFindException]: Entered data is incorrect! Enter the word!
+2023-11-23 12:42:20,398 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 12:45:12,096 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-23 15:43:09,056 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-23 15:43:16,699 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-23 16:10:10,791 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 16:10:45,488 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 16:10:48,553 ERROR c.s.i.a.IOActions [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 16:44:53,013 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-23 16:47:25,831 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-23 20:51:43,161 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-23 20:51:46,528 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-23 20:51:49,441 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-23 20:51:55,302 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 14:55:36,162 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file [src/main/java/com/solvd/io_project/data/text1.txt] !
+2023-11-24 14:56:09,135 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file [src/main/java/com/solvd/io_project/data/text1.txt]!
+2023-11-24 15:06:04,765 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 15:07:47,582 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
+2023-11-24 15:14:56,132 ERROR c.s.i.a.IOActions [main] [ShortPhraseException]: Entered data must be longer than 20 letters
+2023-11-24 15:14:56,137 ERROR c.s.i.c.ConsoleMenu [main] [EmptyInputException]: Entered data can not be empty!
+2023-11-24 15:14:56,138 ERROR c.s.i.c.ConsoleMenu [main] [NumberFormatException]: Entered data is not a number!
