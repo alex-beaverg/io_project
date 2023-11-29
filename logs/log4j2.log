@@ -1,1 +1,8 @@
 2023-11-28 20:24:49,931 ERROR c.s.i.a.IOActions [main] [IOException]: You have a problem with reading text from the file [src/main/java/com/solvd/io_project/data/text1.txt]!
+2023-11-28 21:50:22,628 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:50:25,514 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:50:33,846 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:51:06,830 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:51:08,671 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:57:48,590 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!
+2023-11-28 21:57:50,251 ERROR c.s.i.c.ConsoleMenu [main] [MenuItemNumberOutOfBoundsException]: Entered data must be equal to some menu item!

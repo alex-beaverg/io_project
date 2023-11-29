@@ -24,7 +24,7 @@ public class ConsoleMenu {
         return null;
     }
 
-    private int runAnyMenu(String title, IMenu[] menuItems) {
+    private int drawAnyMenuAndChooseMenuItem(String title, IMenu[] menuItems) {
         int index = 1;
         PRINT2LN.info(title);
         for (IMenu item : menuItems) {
@@ -48,7 +48,7 @@ public class ConsoleMenu {
     private ConsoleMenu runMainMenu() {
         String content;
         Text text = new Text();
-        int answer = runAnyMenu("Main menu:", MainMenu.values());
+        int answer = drawAnyMenuAndChooseMenuItem("Main menu:", MainMenu.values());
         switch (answer) {
             case (1) -> {
                 content = IOActions.readTextFromFile();
@@ -81,7 +81,7 @@ public class ConsoleMenu {
     }
 
     private ConsoleMenu runActionsMenu(Text text) {
-        int answer = runAnyMenu("Actions Menu:", ActionsMenu.values());
+        int answer = drawAnyMenuAndChooseMenuItem("Actions Menu:", ActionsMenu.values());
         switch (answer) {
             case (1) -> {
                 PRINT2LN.info("[COUNTING THE NUMBER OF THE UNIQUE WORDS]");
